@@ -135,7 +135,7 @@ public class App {
 
     public static int randomNumberBetweenOneAndHundred() {
         Random rand = new Random();
-        int number = rand.nextInt(1, 100);
+        int number = rand.nextInt(100)+1;
         return number;
     }
 
